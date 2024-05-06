@@ -14,6 +14,5 @@ public class Combate {
         Luta luta01 = new Luta();
         luta01.marcarLuta(l[0], l[1]);
         luta01.lutar();
-        l[0].status();
     }
 }
