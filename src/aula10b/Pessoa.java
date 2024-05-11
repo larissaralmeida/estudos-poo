@@ -29,4 +29,11 @@ public class Pessoa {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public String detalhesPessoa() {
+        return "Pessoa [ " + "\n" +
+                "Nome: " + nome + "\n" +
+                "Idade: " + idade + "\n" +
+                "Gênero: " + genero + " ]";
+    }
 }
